@@ -1,8 +1,8 @@
 def Partition(Array, left, right):
-    th = Array[left]
+    key = Array[left]
     m = left
     for i in range(left + 1, right + 1):
-        if Array[i] <= th:
+        if Array[i] <= key:
             m += 1
             Array[i], Array[m] = Array[m], Array[i]
     Array[left], Array[m] = Array[m], Array[left]
