@@ -1,7 +1,5 @@
 #include "QuickSort.h"
 
-#include <stdio.h>
-
 int partition(int *array, int left, int right)
 {
 	int key, m, i;
@@ -12,7 +10,7 @@ int partition(int *array, int left, int right)
 	for (i = left + 1; i < right + 1; i++) {
 		if(array[i] <= key)
 		{
-			++m;
+		        ++m;
 			swap(&array[i], &array[m]);
 		}
 	}
@@ -39,5 +37,5 @@ void swap(int *a, int *b)
 	
 	temp = *a;
 	*a   = *b;
-	*b	 = temp;
+	*b   = temp;
 }
