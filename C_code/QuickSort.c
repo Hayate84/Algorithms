@@ -1,5 +1,4 @@
 #include "QuickSort.h"
-
 #include <stdio.h>
 
 int partition(int *array, int left, int right)
