@@ -1,3 +1,3 @@
-# CLRS-Implementations
+# Algorithms
 
-Getting used to github and programming by implementing the algorithms of CLRS.
+Some implementations of cs algorithms
